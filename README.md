@@ -17,4 +17,4 @@
 
 Você pode visualizar a aplicação em funcionamento através do seguinte link:
 
-[Cardápio Restaurante](https://jamilesales127.github.io/cardapio-restaurante/)
+[Cardápio Digital](https://lindomar-almeida.github.io/Card-pio-Digital/)
