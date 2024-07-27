@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Digital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu-container">
+        <h1>Baita Burguer</h1>
+        <hr>
+        <div class="categories">
+            <button class="btn " onclick="showCategory('hamburgers')">Hambúrgueres</button>
+            <button class="btn" onclick="showCategory('savories')">Salgados</button>
+            <button class="btn" onclick="showCategory('drinks')">Bebidas</button>
+        </div>
+        <div id="menu-items" class="menu-items"></div>
+    </div>
+    <div id="cart-container" class="cart-container">
+        <h2>Carrinho de Compras</h2>
+        <div id="cart-items" class="cart-items"></div>
+        <div id="cart-total" class="cart-total"></div>
+        <button onclick="finalizeOrder()">Finalizar Pedido</button>
+    </div>
+    <div id="order-form" class="order-form hidden">
+        <div class="order-form-part">
+            <h2>Finalizar Pedido</h2>
+            <form id="orderDetails">
+                <label for="payment-method">Método de Pagamento:</label>
+                <select id="payment-method" required>
+                    <option value="cartao">Cartão (débito ou crédito)</option>
+                    <option value="pix">Pix</option>
+                </select>
+                <label for="customer-name">Nome Completo:</label>
+                <input type="text" id="customer-name" required>
+                <label for="address">Endereço para Entrega:</label>
+                <input type="text" id="address" required>
+                <div id="order-summary" class="order-summary"></div>
+                <button type="button" onclick="confirmOrder()">Confirmar Pedido</button>
+                <button type="button" onclick="cancelOrder()">Cancelar Pedido</button>
+            </form>
+        </div>
+    </div>
+
+<!--Rodapé-->
+<footer>
+    <p>By @Lindomar Almeida</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
