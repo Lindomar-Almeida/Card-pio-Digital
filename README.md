@@ -1,3 +1,8 @@
+## Projeto Cardápio digital
+
+O sistema que será apresentado contém um fluxo simples e intuitivo para que o cliente possa gerenciar os pedidos de 
+maneira rápida e prática. Com funcionalidades bem definidas e de fácil compreensão.
+
 ## Funcionalidades
 
 - **Apresentação do Cardápio**: Exibe os itens disponíveis no cardápio, categorizados em Hambúrgueres, Salgados e Bebidas.
