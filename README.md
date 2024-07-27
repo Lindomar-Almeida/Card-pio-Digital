@@ -17,4 +17,4 @@
 
 Você pode visualizar a aplicação em funcionamento através do seguinte link:
 
-[Cardápio Digital](https://lindomar-almeida.github.io/Card-pio-Digital/)
+[Cardápio Digital](https://lindomar-almeida.github.io/Cardapio-Digital/)
